@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #d78b8e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main card styling */
+  .card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Logo Styling */
+  .card img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* Title */
+  .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Exchange section */
+  .exchange {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input field wrapper */
+  .input {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .input-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #764ba2;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #667eea;
+    box-shadow: 0px 0px 10px rgba(102, 126, 234, 0.5);
+  }
+  
+  /* Converted amount section */
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #764ba2;
+    padding: 10px;
+    background: rgba(118, 75, 162, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .card {
+      max-width: 90%;
+      padding: 20px;
+    }
+  }
+  
